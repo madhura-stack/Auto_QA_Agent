@@ -1,4 +1,4 @@
-<div align="center">
+`<div align="center">
 
 # 🤖 Auto QA Agent
 
@@ -167,7 +167,7 @@ The application will start at: **http://localhost:5000**
 
 ### Project Structure
 
-
+```
 ├── 📁 agent/                    # Core agent modules
 │   ├── code_generator.py        # Playwright code generation
 │   ├── executor.py              # Test execution engine
@@ -188,7 +188,7 @@ The application will start at: **http://localhost:5000**
 ├── 📄 QUICKSTART.md            # Quick start guide
 └── 📄 README.md                # This file
 
-
+```
 ### API Endpoints
 
 | Endpoint | Method | Description |
