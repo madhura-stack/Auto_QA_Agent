@@ -251,7 +251,7 @@ Recording: On
 ## 📦 Dependencies
 
 Core libraries used in this project:
-
+```
 txt
 flask==3.0.0              # Web framework
 playwright==1.40.0        # Browser automation
@@ -262,7 +262,7 @@ colorama==0.4.6           # Terminal colors
 python-dotenv==1.0.0      # Environment variables
 flask-cors==4.0.0         # CORS support
 
-
+```
 ---
 
 ## 🚦 Troubleshooting
