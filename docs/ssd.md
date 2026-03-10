@@ -1,6 +1,6 @@
 Software System Design (SSD)
 Project: Auto QA Agent – Intelligent Browser Automation Platform
-**Introduction**
+*Introduction*
 
 Auto QA Agent is an intelligent browser automation platform that allows users to perform automated testing using natural language instructions. Instead of writing complex automation scripts, users can simply describe the task in plain English.
 
@@ -8,7 +8,7 @@ The system interprets the instruction using an AI model and converts it into bro
 
 The project aims to simplify web testing for developers, QA engineers, and non-technical users.
 
-**Problem Statement**
+*Problem Statement*
 
 Manual web testing is time-consuming and requires technical knowledge. Traditional automation tools also require programming skills to write test scripts.
 
@@ -24,7 +24,7 @@ Complex setup for automation tools
 
 The Auto QA Agent solves these issues by allowing users to automate tests using natural language commands.
 
-**Objectives**
+*Objectives*
 
 The main objectives of this project are:
 
@@ -38,7 +38,7 @@ Execute browser testing efficiently
 
 Provide detailed test reports and results
 
-**Scope of the Project**
+*Scope of the Project*
 
 The Auto QA Agent can be used in multiple scenarios such as:
 
@@ -54,7 +54,7 @@ Learning automation testing
 
 Future scope includes integration with CI/CD pipelines and cloud-based testing environments.
 
-**System Architecture**
+*System Architecture*
 
 The system consists of multiple layers working together.
 
@@ -85,7 +85,7 @@ Browser actions are executed.
 
 Results are displayed in the dashboard.
 
-**Technology stack**
+*Technology stack*
 
 Backend
 
@@ -117,7 +117,7 @@ Browser
 
 Chromium
 
-**Modules Description**
+*Modules Description*
 1. User Interface Module
 
 Provides a web dashboard where users can:
