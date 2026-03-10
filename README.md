@@ -98,39 +98,39 @@ Generate professional reports in multiple formats:
 - Internet connection for browser downloads
 
 ### Step 1: Clone Repository
-
+```
 bash
 git clone <your-repository-url>
 cd auto_QA_agent
-
+```
 ### Step 2: Install Dependencies
 
 **Windows (PowerShell):**
-powershell
+```powershell
 python -m pip install --upgrade pip
 pip install -r requirements.txt
 playwright install chromium
-
+```
 
 **Linux/Mac:**
-bash
+```bash
 python3 -m pip install --upgrade pip
 pip3 install -r requirements.txt
 playwright install chromium
-
+```
 
 ### Step 3: Set Up Environment (Optional)
 
 Create a `.env` file for API keys:
-env
+```env
 GEMINI_API_KEY=your_api_key_here  # Optional - for enhanced parsing
-
+```
 
 ### Step 4: Run the Application
 
-bash
+```bash
 python app.py
-
+```
 
 The application will start at: **http://localhost:5000**
 
@@ -208,26 +208,26 @@ The application will start at: **http://localhost:5000**
 ## 🎯 Usage Examples
 
 ### Example 1: Google Search Test
-
+```
 Task: Go to google.com and search for 'OpenAI'
 Browser: Chrome
 Mode: Visible
-
+```
 
 ### Example 2: E-commerce Navigation
-
+```
 Task: Navigate to amazon.com, search for 'laptop', wait 3 seconds
 Browser: Firefox
 Mode: Headless
-
+```
 
 ### Example 3: Video Search
-
+```
 Task: Open youtube.com, type 'Python tutorial' in search box
 Browser: Edge
 Mode: Visible
 Recording: On
-
+```
 
 ---
 
@@ -270,19 +270,19 @@ flask-cors==4.0.0         # CORS support
 ### Common Issues
 
 **Issue: Browser not found**
-bash
+```bash
 # Solution: Install browsers
 playwright install chromium firefox msedge
-
+```
 
 **Issue: Port 5000 already in use**
-bash
+``bash
 # Solution: Change port in app.py
 app.run(debug=True, port=8080, host='0.0.0.0')
-
+``
 
 **Issue: Module not found errors**
-bash
+```bash
 # Solution: Reinstall dependencies
 pip install -r requirements.txt --upgrade
 ```
@@ -324,7 +324,8 @@ This project is licensed under the *MIT License* - see the [LICENSE](LICENSE) fi
 
 ## 👨‍💻 Author
 
-
+**BINDU A**
+**MADHURA G R**
 
 
 - Project: Auto QA agent
