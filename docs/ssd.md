@@ -244,6 +244,38 @@ Voice command testing
 
 Mobile browser automation
 
+## 🐞 Reporting Issues
+
+If you encounter any bugs or problems while using the Auto QA Agent, please create an issue in the GitHub repository.
+
+Steps to report an issue:
+
+1. Go to the **Issues** tab in the repository.
+2. Click **New Issue**.
+3. Provide a clear title and description of the problem.
+4. Include the steps to reproduce the issue.
+
+Example Issue Format:
+
+Bug Description:
+Explain the issue clearly.
+
+Steps to Reproduce:
+1. Open the Auto QA Agent
+2. Enter a task description
+3. Click Run Agent
+
+Expected Behavior:
+The browser should open and execute the automation task.
+
+Actual Behavior:
+The browser does not start or the automation fails.
+
+Environment:
+OS: Windows 11  
+Python Version: 3.x  
+Browser: Chrome
+
 1️⃣2️⃣ Conclusion
 
 Auto QA Agent simplifies browser automation by allowing users to test websites using natural language instructions. The system reduces manual effort, improves testing speed, and makes automation accessible for both technical and non-technical users.
