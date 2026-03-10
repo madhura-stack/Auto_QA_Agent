@@ -160,6 +160,40 @@ The application will start at: **http://localhost:5000**
    - 📋 Execution steps with screenshots
    - 💻 Generated Playwright code
    - 📥 Download reports (PDF/HTML/JSON)
+   
+---
+
+## 🐞 Reporting Issues
+
+If you encounter any bugs or problems while using the Auto QA Agent, please create an issue in the GitHub repository.
+
+Steps to report an issue:
+
+1. Go to the **Issues** tab in the repository.
+2. Click **New Issue**.
+3. Provide a clear title and description of the problem.
+4. Include the steps to reproduce the issue.
+
+Example Issue Format:
+
+Bug Description:
+Explain the issue clearly.
+
+Steps to Reproduce:
+1. Open the Auto QA Agent
+2. Enter a task description
+3. Click Run Agent
+
+Expected Behavior:
+The browser should open and execute the automation task.
+
+Actual Behavior:
+The browser does not start or the automation fails.
+
+Environment:
+OS: Windows 11  
+Python Version: 3.x  
+Browser: Chrome
 
 ---
 
